@@ -355,7 +355,7 @@ namespace money.Tests
         public void Can_preserve_internal_rounding_against_smaller_fractions_with_decimals()
         {
             Money total = 0.335678m * 345m; // 115.80891
-
+            
             // Loss of precision based on rounding rules
             Assert.AreEqual(115.81m, (decimal)total);
 
