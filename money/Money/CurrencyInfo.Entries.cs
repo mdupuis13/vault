@@ -6,7 +6,7 @@ namespace money
     {
         private static readonly IDictionary<Currency, CurrencyInfo> Currencies = new Dictionary<Currency, CurrencyInfo>(9)
         {
-            {
+            {   // USD
                 Currency.USD,
                 new CurrencyInfo
                     {
